@@ -1,0 +1,68 @@
+
+/* Cabeçalho
+*/
+.cabecalho{
+    background-color: #ccc;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+
+.navegacao{
+    background-color: #ccc;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    margin-right: 20vw ;
+}
+
+
+.item{
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    margin: 20px;
+    
+}
+
+.article-01{
+    background-color: hotpink; 
+    padding: 15px;
+    margin: 5px; 
+    margin-left: 20px; 
+
+}
+
+.article-02, .article-03, .article-04{
+    margin-left: 80px;
+}
+
+/* Navegação
+*/
+
+.titulo{
+    background-color: #ccc;
+    height: 15vh;
+    width: 50%;
+    margin-top: 50px;
+    
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* sections e articles*/
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+

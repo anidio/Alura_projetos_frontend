@@ -44,7 +44,7 @@
     flex-grow: 1;
 }
 
-/* Rodapé princpal container
+/* Mapa de cursos
 */
 
 .rodapePrincipal-navMap-list{
@@ -52,4 +52,22 @@
     flex-direction: column;
     height: 250px;
     flex-wrap: wrap;
+}
+
+/* Rodapé*/
+
+.rodapePrincipal-patrocinadores-list{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+
+.rodapePrincipal-patrocinadores .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-contatoForm-fieldset{
+    display: flex;
 }

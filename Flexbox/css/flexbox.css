@@ -43,3 +43,13 @@
 .videoSobre-video{
     flex-grow: 1;
 }
+
+/* Rodapé princpal container
+*/
+
+.rodapePrincipal-navMap-list{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    flex-wrap: wrap;
+}
